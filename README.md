@@ -89,18 +89,18 @@ The machine learning model is very intriguing. It does however require a series 
 **Loss and Accuracy graphs**
 
 ![Initial_Run](/Images/Initial_Run.jpg)      
-![Accuracy Plot 1](/Images/accuracy_plot1.PNG)      ![Loss Plot 1](/Images/loss_plot1.PNG)
+![Accuracy Plot 1](/Images/accuracy_plot1.PNG) ![Loss Plot 1](/Images/loss_plot1.PNG)
 
 ---
 ![Optimization 1](/Images/Optimization_1.jpg)      
-![Accuracy Plot 2](/Images/accuracy_plot2.PNG)      ![Loss Plot 2](/Images/loss_plot2.PNG)
+![Accuracy Plot 2](/Images/accuracy_plot2.PNG) ![Loss Plot 2](/Images/loss_plot2.PNG)
 
 ---
 ![Optimization 2](/Images/Optimization_2.jpg)      
-![Accuracy Plot 3](/Images/accuracy_plot3.PNG)      ![Loss Plot 1](/Images/loss_plot3.PNG)
+![Accuracy Plot 3](/Images/accuracy_plot3.PNG) ![Loss Plot 1](/Images/loss_plot3.PNG)
 
 ---
 ![Optimization 3](/Images/Optimization_3.jpg)      
-![Accuracy Plot 4](/Images/accuracy_plot4.PNG)      ![Loss Plot 1](/Images/loss_plot4.PNG)
+![Accuracy Plot 4](/Images/accuracy_plot4.PNG) ![Loss Plot 1](/Images/loss_plot4.PNG)
 
 ---

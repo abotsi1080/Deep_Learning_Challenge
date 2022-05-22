@@ -27,10 +27,10 @@ Preprocessing is very important and considered the initial step in machine learn
 
 To complete the preprocessing of the dataset, I read in the charity_data.csv to a Pandas DataFrame. It is very important to identify the target variables and the feature variables for the model.
   * What variable(s) are considered the target(s) for your model?
-    In this model, the target variables are shown as the "IS_SUCCESSFUL" column. This will be the desired outcome of the model. 
+   * In this model, the target variables are shown as the "IS_SUCCESSFUL" column. This will be the desired outcome of the model. 
   
   * What variable(s) are considered the feature(s) for your model?
-     In this model, the feature varibales are all the columns in the dataset except the `EIN` and `NAME` columns since these two columns were dropped from the initial preprocessing stage.
+   * In this model, the feature varibales are all the columns in the dataset except the `EIN` and `NAME` columns since these two columns were dropped from the initial preprocessing stage.
    
 ![Preprocessor](/Images/Preprocessor.jpg)
 

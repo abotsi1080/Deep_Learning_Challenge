@@ -1,5 +1,5 @@
 # Deep Learning Homework: Charity Funding Predictor
-![Deep_Learning2](/Images/Deep_Learning2.jpg)
+![Deep_Learning](/Images/Deep_Learning2.jpg)
 
 ## Background
 

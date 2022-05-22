@@ -1,5 +1,5 @@
 # Deep Learning Homework: Charity Funding Predictor
-![Deep_Learning](/Images/Deep_Learning3.jpg)
+![Deep_Learning2](/Images/Deep_Learning2.jpg)
 
 ## Background
 
@@ -32,7 +32,7 @@ To complete the preprocessing of the dataset, I read in the charity_data.csv to 
   * What variable(s) are considered the feature(s) for your model?
      In this model, the feature varibales are all the columns in the dataset except the `EIN` and `NAME` columns since these two columns were dropped from the initial preprocessing stage.
    
-![Preprocessor](/Images/Preprocessor)
+![Preprocessor](/Images/Preprocessor.jpg)
 
 The number of unique values for each column were determined and the for those columns that have more than 10 unique values, the number of data points for each unique value were determined as well. I used the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, `Other`, and then I checked if the binning was successful. I then used `pd.get_dummies()` to encode categorical variables.
 
@@ -40,7 +40,7 @@ The number of unique values for each column were determined and the for those co
 
 In step 2, using my knowledge of TensorFlow, I designed a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. I thought about how many inputs there are before determining the number of neurons and layers in your model. Once I completed that step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 
-![Model_Setup](/Images/Model_Setup)
+![Model_Setup](/Images/Model_Setup.jpg)
 
 ### Step 3: Optimize the Model
 
@@ -88,19 +88,19 @@ The machine learning model is very intriguing. It does however require a series 
 ---
 **Loss and Accuracy graphs**
 
-![Initial_Run](/Images/Initial_Run)      
+![Initial_Run](/Images/Initial_Run.jpg)      
 ![Accuracy Plot 1](/Images/accuracy_plot1.PNG)      ![Loss Plot 1](/Images/loss_plot1.PNG)
 
 ---
-![Optimization 1](/Images/Optimization_1)      
+![Optimization 1](/Images/Optimization_1.jpg)      
 ![Accuracy Plot 2](/Images/accuracy_plot2.PNG)      ![Loss Plot 2](/Images/loss_plot2.PNG)
 
 ---
-![Optimization 2](/Images/Optimization_2)      
+![Optimization 2](/Images/Optimization_2.jpg)      
 ![Accuracy Plot 3](/Images/accuracy_plot3.PNG)      ![Loss Plot 1](/Images/loss_plot3.PNG)
 
 ---
-![Optimization 3](/Images/Optimization_3)      
+![Optimization 3](/Images/Optimization_3.jpg)      
 ![Accuracy Plot 4](/Images/accuracy_plot4.PNG)      ![Loss Plot 1](/Images/loss_plot4.PNG)
 
 ---
